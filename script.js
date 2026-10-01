@@ -480,27 +480,28 @@ if (
 
 /* ================= EMAIL COPY ================= */
 
-const emailLinks =
-    document.querySelectorAll(
-        'a[href^="mailto:"]'
-    );
+// const emailLinks =
+//     document.querySelectorAll(
+//         'a[href^="mailto:"]'
+//     );
 
 
-emailLinks.forEach(link => {
+// emailLinks.forEach(link => {
 
-    link.addEventListener(
-        "click",
-        () => {
+//     link.addEventListener(
+//         "click",
+//         () => {
 
-            /*
-                The mail client will open normally.
-                No extra action is required.
-            */
+//             /*
+//                 The mail client will open normally.
+//                 No extra action is required.
+//             */
 
-        }
-    );
+//         }
+//     );
 
-});
+// });       
+
 
 
 /* ================= ESCAPE KEY ================= */
